@@ -14,11 +14,12 @@ end
 
 def add_element_to_start_of_array(array, element)
   array = [1]
-  array.unshift(2)
+  array.unshift(2) # adds element to the front of the array
 end
 
 def remove_element_from_end_of_array(array)
-  
+  arr = [1]
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
