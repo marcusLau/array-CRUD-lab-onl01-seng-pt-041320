@@ -19,11 +19,12 @@ end
 
 def remove_element_from_end_of_array(array)
   arr = [1]
-  array.pop
+  array.pop # removes an element from the END of an array
 end
 
 def remove_element_from_start_of_array(array)
-  
+  arr = [1]
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
